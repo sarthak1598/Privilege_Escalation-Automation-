@@ -1,4 +1,4 @@
-# The Phase of Privilege_Escalation-
+# The Phase of Privilege-Escalation-
 
 Privilige escalation is one of  the very important phase of  web application exploitation for both for both ethical hackers as well as the black hat hackers.
 
