@@ -12,6 +12,11 @@ whoami
 echo Mounted-filesystems 
 mount -l
 
+echo System Password file (hashed)
+# cotainig the system user's passwords hashed form 
+cat /etc/passwd  
+
+
 echo ip routes 
 ip link show 
 
