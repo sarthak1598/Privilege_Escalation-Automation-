@@ -9,4 +9,10 @@ now ,there are multiple attack vectors that can help in escalating the privilege
 
 So , to save the time consumption in manually testing of the various possible vulnerbilities may be in operating system , network configuration , incorrect permission levels and any other vulnerbility . 
 
-I used to write some automated testing scripts in boths as bash scripts for unix/linux and in python also for other windows like operating systems also . 
+I used to write some automated testing scripts in boths as bash scripts for unix/linux and in python also for other windows like operating systems also .
+
+
+
+# Use cases and limitations
+1. The shell script is limited to the linux ased machines 
+2 all code is acccordance with the linux/unix settins and architecture . 
