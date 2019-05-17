@@ -4,10 +4,42 @@
 #!/bin/sh
 
 echo Linux kernel version
-uname -a
+uname -a ; uname -r 
 
 echo current_userinformation 
-whoami 
+whoami ; id 
+
+echo file system information 
+df -a
+
+echo cpu-information 
+cat /proc/cpuinfo 
+
+echo show user hashes 
+cat /etc/shadow # but the privileged executable command 
+
+echo currently logged in users 
+finger 
+
+echo who can do same as root 
+cat /etc/sudoers 
+
+echo list of last loggedin users
+last ; pwd # present working directory also 
+
+echo display the environmental variables 
+env 
+echo display default system variables 
+cat /etc/profiles 
+
+echo display the available shells of os 
+cat /etc/shells 
+
+echo display all the path information 
+echo $PATH
+
+echo display command history 
+history 
 
 echo Mounted-filesystems 
 mount -l
