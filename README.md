@@ -17,7 +17,9 @@ I used to write some automated testing scripts in boths as bash scripts for unix
 1. The shell script is limited to the linux ased machines .
 2. As , this script works in the privelage escalation phase of penetrating any wev application .
 3. So, It is usefull after only the pre-exploitation or after getting the low privelaged system shell. 
-4. All code is acccordance with the linux/unix settings and architecture till now.
-5. Limited to information gathering for unix ased systems only. 
+4. The script can e transffered to the target machine with many ways in interactive as well as non interactive manners . 
+5. Some of them like  FTP , wget etc used generally while doing this . 
+6. All code is acccordance with the linux/unix settings and architecture till now.
+7. Limited to information gathering for unix ased systems only. 
 
 
